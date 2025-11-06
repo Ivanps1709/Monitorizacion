@@ -16,7 +16,7 @@ A continuación se muestran capturas de pantalla de los comandos más comunes pa
 
 ### ps aux
 
-![ps aux](ud1/img/ps2.png)
+![ps aux](/ud1/img/ps2.png)
 
 **Explicación:** El comando `ps aux` es una versión más completa que `ps au`.
 * `a`: Muestra procesos de todos los usuarios.
@@ -27,7 +27,7 @@ A continuación se muestran capturas de pantalla de los comandos más comunes pa
 
 ### ps -u [usuario]
 
-![ps -u alumno](ud1/img/ps3.png)
+![ps -u alumno](/ud1/img/ps3.png)
 
 **Explicación:** El comando `ps -u alumno` filtra la lista de procesos para mostrar únicamente aquellos que pertenecen al **usuario especificado**, en este caso, "alumno".
 
@@ -35,7 +35,7 @@ A continuación se muestran capturas de pantalla de los comandos más comunes pa
 
 ### ps (formato personalizado y ordenado)
 
-![ps sort](ud1/img/ejercicio1.png)
+![ps sort](/ud1/img/ejercicio1.png)
 
 **Explicación:** Este es un comando más avanzado para filtrar procesos y ordenarlos.
 * `ps -eo pid,user,comm,%cpu`: Muestra **todos los procesos** (`-e`) pero solo con las columnas que especificamos (`-o`): PID, usuario, nombre del comando y porcentaje de CPU.
@@ -46,7 +46,7 @@ A continuación se muestran capturas de pantalla de los comandos más comunes pa
 
 ### top
 
-![top](ud1/img/top1.png)
+![top](/ud1/img/top1.png)
 
 **Explicación:** El comando `top` inicia un monitor de sistema **interactivo y en tiempo real**. A diferencia de `ps` (que es una foto fija), `top` muestra una vista que se actualiza constantemente de los procesos y el estado general del sistema (carga media, uso de CPU, memoria RAM y SWAP). Por defecto, ordena los procesos por el porcentaje de uso de CPU (%CPU).
 
@@ -54,7 +54,7 @@ A continuación se muestran capturas de pantalla de los comandos más comunes pa
 
 ### top (modo batch)
 
-![top batch mode](ud1/img/top2.png)
+![top batch mode](/ud1/img/top2.png)
 
 **Explicación:** Este comando ejecuta `top` de una forma no interactiva, ideal para guardar informes.
 * `-b`: (Batch mode) Ejecuta `top` en **"modo batch"**, para que su salida se pueda redirigir a un archivo en lugar de mostrarse interactivamente.
@@ -65,7 +65,7 @@ A continuación se muestran capturas de pantalla de los comandos más comunes pa
 
 ### htop
 
-![htop](ud1/img/htop.png)
+![htop](/ud1/img/htop.png)
 
 **Explicación:** El comando `htop` es un monitor de procesos interactivo, considerado una **versión mejorada de `top`**. Ofrece una interfaz más visual y amigable:
 * Muestra el uso de cada **núcleo de la CPU** y el uso de memoria/swap con barras gráficas.
