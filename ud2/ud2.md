@@ -6,7 +6,7 @@ Comandos para la monitorización de la memoria, el uso del espacio en disco y el
 
 ### free
 
-![Comando free](free.png)
+![Comando free](/ud2/img/free.png)
 
 **Explicación:** El comando `free` muestra la cantidad de memoria **RAM** (física) y de intercambio (**swap**) libre y utilizada en el sistema.
 * `free -h`: Es la opción más común. Muestra la salida en un formato **"legible para humanos"** (human-readable), usando Megabytes (M) o Gigabytes (G) en lugar de bytes.
@@ -17,7 +17,7 @@ Comandos para la monitorización de la memoria, el uso del espacio en disco y el
 
 ### df
 
-![Comando df](df.png)
+![Comando df](/ud2/img/df.png)
 
 **Explicación:** El comando `df` (Disk Free) se usa para **reportar el espacio libre y utilizado** de los sistemas de archivos (particiones o discos montados).
 * `df -h`: Muestra la salida en formato **"legible para humanos"** (human-readable), indicando el espacio en G, M, K, etc.
@@ -27,7 +27,7 @@ Comandos para la monitorización de la memoria, el uso del espacio en disco y el
 
 ### du
 
-![Comando du](du.png)
+![Comando du](/ud2/img/du.png)
 
 **Explicación:** El comando `du` (Disk Usage) se utiliza para **estimar el espacio total que ocupan** archivos o directorios. A diferencia de `df`, que mira la partición completa, `du` calcula el tamaño de carpetas específicas.
 * `sudo`: Se usa para tener permisos de administrador y poder leer el tamaño de todas las carpetas, incluso las que pertenecen a otros usuarios.
@@ -39,7 +39,7 @@ Comandos para la monitorización de la memoria, el uso del espacio en disco y el
 
 ### iostat
 
-![Comando iostat](iostat.png)
+![Comando iostat](/ud2/img/iostat.png)
 
 **Explicación:** El comando `iostat` (Input/Output Statistics) monitoriza las **estadísticas de E/S (Entrada/Salida) de los dispositivos** de bloque (discos duros, SSDs). Es muy útil para detectar cuellos de botella en el rendimiento del disco.
 * Muestra métricas clave como `rKB/s` (kilobytes leídos por segundo), `wKB/s` (kilobytes escritos por segundo), `await` (tiempo de espera) y `%util` (porcentaje de tiempo que el disco ha estado ocupado).
@@ -49,7 +49,7 @@ Comandos para la monitorización de la memoria, el uso del espacio en disco y el
 
 ### atop
 
-![Comando atop](atop1.png)
+![Comando atop](/ud2/img/atop1.png)
 
 **Explicación:** El comando `atop` es un monitor de rendimiento del sistema avanzado e interactivo (similar a `htop` o `top`).
 * Su principal ventaja es que **muestra el uso de TODOS los recursos del sistema** en una sola pantalla: CPU (`CPU`), memoria (`MEM`), disco (`DSK`) y red (`NET`).
