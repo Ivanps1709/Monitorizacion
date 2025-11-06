@@ -6,7 +6,7 @@ A continuación se muestran capturas de pantalla de los comandos más comunes pa
 
 ### ps au
 
-![ps au](ud1/img/ps1.png)
+![ps au](/ud1/img/ps1.png)
 
 **Explicación:** El comando `ps au` se utiliza para ver los procesos en ejecución.
 * `a`: Muestra los procesos de **todos los usuarios**, no solo los del usuario actual.
