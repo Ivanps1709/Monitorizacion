@@ -6,7 +6,7 @@ Herramientas para inspeccionar las conexiones de red activas, los puertos abiert
 
 ### ss
 
-![Comando ss](ss.png)
+![Comando ss](/ud4/img/ss.png)
 
 **Explicación:** El comando `ss` (Socket Statistics) es una herramienta moderna y más rápida que `netstat` para investigar sockets (puntos de comunicación de red).
 * `ss -plunt`: Es una combinación de opciones muy común:
@@ -32,7 +32,7 @@ Herramientas para inspeccionar las conexiones de red activas, los puertos abiert
 
 ### arp
 
-![Comando arp](arp.png)
+![Comando arp](/ud4/img/arp.png)
 
 **Explicación:** El comando `arp` se usa para ver y manipular la **caché ARP** (Address Resolution Protocol) del sistema. Esta caché es una tabla que **traduce direcciones IP (Capa 3) a direcciones MAC (Capa 2)** dentro de la red local.
 * `arp -n`: Muestra la tabla ARP, usando direcciones IP numéricas (`-n`) en lugar de intentar resolver nombres de host.
@@ -42,8 +42,8 @@ Herramientas para inspeccionar las conexiones de red activas, los puertos abiert
 
 ### nmap (Ping Scan)
 
-![Comando nmap ping scan](equipos-disponibles.png)
-![Comando nmap ping scan 2](nmap.png)
+![Comando nmap ping scan](/ud4/img/equipos-disponibles.png)
+![Comando nmap ping scan 2](/ud4/img/nmap.png)
 
 **Explicación:** `nmap` (Network Mapper) es una potente herramienta para descubrir hosts y servicios en una red.
 * `nmap -sn 172.26.1.0/24`: Este comando realiza un **"Ping Scan"** (`-sn`) sobre todo el rango de red `172.26.1.0/24`.
@@ -54,7 +54,7 @@ Herramientas para inspeccionar las conexiones de red activas, los puertos abiert
 
 ### nmap (Escaneo de Puertos)
 
-![Comando nmap top ports](top-ports.png)
+![Comando nmap top ports](/ud4/img/top-ports.png)
 
 **Explicación:** Este es un uso más avanzado de `nmap` para **descubrir servicios** que se ejecutan en un host.
 * `nmap --top-ports 100 -sV 172.26.10.99`:
