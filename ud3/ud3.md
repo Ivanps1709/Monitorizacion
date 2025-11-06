@@ -6,7 +6,7 @@ Comandos y herramientas para la monitorización del tráfico y el uso del ancho 
 
 ### tcpdump
 
-![Comando tcpdump](tcpdump.png)
+![Comando tcpdump](/ud3/img/tcpdump.png)
 
 **Explicación:** El comando `tcpdump` es un **analizador de paquetes** (o "sniffer") para la línea de comandos. Es una herramienta de bajo nivel que permite capturar e inspeccionar el tráfico de red en detalle.
 * En la captura, `sudo tcpdump` está imprimiendo en la terminal una descripción de cada paquete que pasa por la interfaz de red.
@@ -17,7 +17,7 @@ Comandos y herramientas para la monitorización del tráfico y el uso del ancho 
 
 ### tcptrack
 
-![Comando tcptrack](tcptrack.png)
+![Comando tcptrack](/ud3/img/tcptrack.png)
 
 **Explicación:** `tcptrack` es un monitor de conexiones TCP en tiempo real, similar a como `top` monitoriza los procesos.
 * Muestra una lista ordenada de todas las conexiones TCP activas en ese momento.
@@ -27,7 +27,7 @@ Comandos y herramientas para la monitorización del tráfico y el uso del ancho 
 
 ### iptraf-ng
 
-![Comando iptraf-ng](iptraf.png)
+![Comando iptraf-ng](/ud3/img/iptraf.png)
 
 **Explicación:** `iptraf-ng` (o `iptraf`) es un monitor de red interactivo basado en ncurses (interfaz de texto). Ofrece un desglose estadístico del tráfico.
 * En la captura se pueden ver dos paneles principales:
@@ -38,7 +38,7 @@ Comandos y herramientas para la monitorización del tráfico y el uso del ancho 
 
 ### bmon
 
-![Comando bmon](bmon.png)
+![Comando bmon](/ud3/img/bmon.png)
 
 **Explicación:** `bmon` (Bandwidth Monitor) es una utilidad sencilla para monitorizar el ancho de banda de la red **en tiempo real y de forma gráfica** en la terminal.
 * **Panel Superior**: Muestra una lista de las interfaces de red del sistema (como `enp1s0f1`, `docker0`, etc.).
